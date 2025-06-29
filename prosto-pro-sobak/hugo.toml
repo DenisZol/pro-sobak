@@ -1,0 +1,47 @@
+baseURL = 'https://example.org/'
+languageCode = 'en-us'
+title = 'My New Hugo Site'
+[[menu.main]]
+  identifier = "01-want"
+  name = "Хочу собаку"
+  url = "/01-want/"
+
+[[menu.main]]
+  identifier = "02-home"
+  name = "Дом и быт"
+  url = "/02-home/"
+
+[[menu.main]]
+  identifier = "03-understand"
+  name = "Понимание собаки"
+  url = "/03-understand/"
+
+[[menu.main]]
+  identifier = "04-care"
+  name = "Уход и гигиена"
+  url = "/04-care/"
+
+[[menu.main]]
+  identifier = "05-health"
+  name = "Здоровье"
+  url = "/05-health/"
+
+[[menu.main]]
+  identifier = "06-society"
+  name = "Собаки и люди"
+  url = "/06-society/"
+
+[[menu.main]]
+  identifier = "07-help"
+  name = "Помощь"
+  url = "/07-help/"
+
+[[menu.main]]
+  identifier = "08-regions"
+  name = "Регионы"
+  url = "/08-regions/"
+
+[[menu.main]]
+  identifier = "99-service"
+  name = "Сервис и поиск"
+  url = "/99-service/"
