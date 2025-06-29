@@ -18,7 +18,7 @@
 
 [[menu.main]]
   name = "Питание"
-  url = "/04-food/"
+  url = "/04-care/"
   weight = 4
   identifier = "food"
 
