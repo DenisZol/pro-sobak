@@ -1,8 +1,7 @@
 ---
 title: "Щенки"
-slug: "filtr-shchenok"
-description: "Все статьи про щенков: выбор, питание, воспитание"
-tags: ["щенки"]
-anchors: []
+slug: "shchenok"
+description: "Статьи для тех, у кого щенок"
+type: "filtr"
+links: []
 ---
-**Раздел в работе. Статьи появятся позже.**
