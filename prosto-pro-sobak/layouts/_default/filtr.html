@@ -1,0 +1,14 @@
+{{ define "main" }}
+<main>
+  <h1>{{ .Title }}</h1>
+  {{ with .Params.description }}<p>{{ . }}</p>{{ end }}
+  {{ .Content }}
+  {{ with .Params.links }}
+  <ul>
+    {{ range . }}
+      <li><a href="{{ .url }}">{{ .title }}</a></li>
+    {{ end }}
+  </ul>
+  {{ end }}
+</main>
+{{ end }}
