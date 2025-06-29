@@ -56,3 +56,24 @@
   [markup.tableOfContents]
     startLevel = 2
     endLevel = 4
+
+[languages]
+  [languages.ru]
+    languageName = "Русский"
+    weight = 1
+    contentDir = "content"
+
+  [languages.ua]
+    languageName = "Українська"
+    weight = 2
+    contentDir = "content_ua"
+
+  [languages.en]
+    languageName = "English"
+    weight = 3
+    contentDir = "content_en"
+
+defaultContentLanguage = "ru"
+defaultContentLanguageInSubdir = false
+
+# другие языки будут подключены позже, сейчас активен только RU
