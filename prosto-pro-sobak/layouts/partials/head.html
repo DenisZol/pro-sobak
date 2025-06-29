@@ -2,4 +2,65 @@
   <meta charset="UTF-8" />
   <meta name="viewport" content="width=device-width, initial-scale=1.0" />
   <title>{{ .Title }}</title>
+  <style>
+    .toc {
+      padding: 1rem;
+      border: 1px solid #ccc;
+      background: #f9f9f9;
+      margin-bottom: 2rem;
+    }
+    .toc a {
+      text-decoration: none;
+      display: block;
+      margin: 0.25rem 0;
+      color: #444;
+    }
+    .toc a:hover {
+      text-decoration: underline;
+    }
+    .anchor-link {
+      visibility: hidden;
+      margin-left: 0.5rem;
+      font-size: 0.8em;
+    }
+    h2:hover .anchor-link,
+    h3:hover .anchor-link,
+    h4:hover .anchor-link {
+      visibility: visible;
+    }
+    .also {
+      margin-top: 3rem;
+      border-top: 1px solid #ccc;
+      padding-top: 1rem;
+    }
+    .also-grid {
+      display: grid;
+      gap: 1rem;
+    }
+    .also-item {
+      background: #f7f7f7;
+      padding: 1rem;
+      border-radius: 0.5rem;
+    }
+    .also-item h3 {
+      margin: 0;
+    }
+    .also-item p {
+      font-size: 0.9rem;
+      color: #555;
+    }
+  </style>
+  <script>
+    document.addEventListener('DOMContentLoaded', function () {
+      document.querySelectorAll('main h2, main h3, main h4').forEach(function (h) {
+        if (h.id) {
+          var a = document.createElement('a');
+          a.className = 'anchor-link';
+          a.href = '#' + h.id;
+          a.textContent = '#';
+          h.appendChild(a);
+        }
+      });
+    });
+  </script>
 </head>
