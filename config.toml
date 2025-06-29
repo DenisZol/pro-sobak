@@ -61,17 +61,14 @@
   [languages.ru]
     languageName = "Русский"
     weight = 1
-    contentDir = "content"
 
   [languages.ua]
     languageName = "Українська"
     weight = 2
-    contentDir = "content_ua"
 
   [languages.en]
     languageName = "English"
     weight = 3
-    contentDir = "content_en"
 
 defaultContentLanguage = "ru"
 defaultContentLanguageInSubdir = false
