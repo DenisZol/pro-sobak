@@ -2,4 +2,44 @@
   <meta charset="UTF-8" />
   <meta name="viewport" content="width=device-width, initial-scale=1.0" />
   <title>{{ .Title }}</title>
+  <style>
+    .toc {
+      padding: 1rem;
+      border: 1px solid #ccc;
+      background: #f9f9f9;
+      margin-bottom: 2rem;
+    }
+    .toc a {
+      text-decoration: none;
+      display: block;
+      margin: 0.25rem 0;
+      color: #444;
+    }
+    .toc a:hover {
+      text-decoration: underline;
+    }
+    .anchor-link {
+      visibility: hidden;
+      margin-left: 0.5rem;
+      font-size: 0.8em;
+    }
+    h2:hover .anchor-link,
+    h3:hover .anchor-link,
+    h4:hover .anchor-link {
+      visibility: visible;
+    }
+  </style>
+  <script>
+    document.addEventListener('DOMContentLoaded', function () {
+      document.querySelectorAll('main h2, main h3, main h4').forEach(function (h) {
+        if (h.id) {
+          var a = document.createElement('a');
+          a.className = 'anchor-link';
+          a.href = '#' + h.id;
+          a.textContent = '#';
+          h.appendChild(a);
+        }
+      });
+    });
+  </script>
 </head>
