@@ -51,3 +51,8 @@
   url = "/99-service/"
   weight = 99
   identifier = "service"
+
+[markup]
+  [markup.tableOfContents]
+    startLevel = 2
+    endLevel = 4
