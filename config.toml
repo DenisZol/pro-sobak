@@ -1,0 +1,53 @@
+[[menu.main]]
+  name = "Хочу собаку"
+  url = "/01-want/"
+  weight = 1
+  identifier = "want"
+
+[[menu.main]]
+  name = "Появилась собака"
+  url = "/02-home/"
+  weight = 2
+  identifier = "home"
+
+[[menu.main]]
+  name = "Понимать собаку"
+  url = "/03-understand/"
+  weight = 3
+  identifier = "understand"
+
+[[menu.main]]
+  name = "Питание"
+  url = "/04-food/"
+  weight = 4
+  identifier = "food"
+
+[[menu.main]]
+  name = "Уход и здоровье"
+  url = "/05-health/"
+  weight = 5
+  identifier = "health"
+
+[[menu.main]]
+  name = "Прогулки и общество"
+  url = "/06-society/"
+  weight = 6
+  identifier = "society"
+
+[[menu.main]]
+  name = "Что делать, если..."
+  url = "/07-help/"
+  weight = 7
+  identifier = "help"
+
+[[menu.main]]
+  name = "Регионы"
+  url = "/08-regions/"
+  weight = 8
+  identifier = "regions"
+
+[[menu.main]]
+  name = "Сервис"
+  url = "/99-service/"
+  weight = 99
+  identifier = "service"
